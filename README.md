@@ -13,6 +13,13 @@ images showcasing the game:
 <img src="https://github.com/user-attachments/assets/0bbb51c2-8b3c-4b6a-a43b-4ab1e3e15769" width="400">
 
 
+
+
+
+
+
+
+
 a video showcasing the game:
 
 
@@ -24,7 +31,7 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
 
 
 
-GAMEPLAY FEATURES:                                                        
+ 🐍 GAMEPLAY FEATURES:                                                        
   - Persistent High Scores & Wins: Powered by the Arduino's internal        
     EEPROM memory, your High Score and Total Wins are saved permanently.    
   - Continuous play mechanic: if you win by getting to maximum              
@@ -38,7 +45,7 @@ GAMEPLAY FEATURES:
   - custom tones that play on a passive buzzer to enhance                   
     gameplay experience                                                     
                                                                             
-  TECHNICAL FEATURES:                                                       
+🔧 TECHNICAL FEATURES:                                                       
   - Using dynamically generated custom characters during gameplay loop      
     to generate more custom characters bypassing screen ram limit of only   
     8 graphic characters                                                    
@@ -51,7 +58,7 @@ GAMEPLAY FEATURES:
   - using internal arduino clock to avoid using delay(),                    
     in game loop (to prevent lag)                                           
                                                                             
-   CAUTION:                                                                 
+⚠️ CAUTION:                                                                 
   -The program uses and updates arduinos EEPROM memory to keep track        
    of scores and wins, be sure that you dont need/use the specific          
    slots of this memory before running the program, you also can change     
@@ -61,15 +68,18 @@ GAMEPLAY FEATURES:
    make sure each address is 2 steps away from the preceding one because int
    variables take 2 places of memory                                        
                                                                             
-   HOW TO PLAY:                                                             
+🕹️ HOW TO PLAY:                                                             
   -wire everything according to the hardware connections specified below    
-   flash the program to the Arduino uno board, power the Arduino board   
+   flash the program to the Arduino uno board, power the Arduino board 
+
+
+   
 
    a "How to wire image" made by wokwi.com
    <img width="1058" height="923" alt="wiring" src="https://github.com/user-attachments/assets/43d55f3c-ac85-43fe-b12f-ecd8db1ea891" />
    
                                                                             
-  HARDWARE CONNECTIONS:                                                     
+ 🔌 HARDWARE CONNECTIONS:                                                     
   - Joystick 5v         -> 5v supply                                        
   - Joystick GND        -> GND                                              
   - Joystick X-Axis     -> Analog A0                                        
@@ -81,6 +91,6 @@ GAMEPLAY FEATURES:
   - 16x2 I2C LCD GND    -> GND                                              
   - 16x2 I2C LCD SDA    ->Arduino SDA pin                                   
                                                                             
-  LIBRARIES REQUIRED:                                                       
+📖 LIBRARIES REQUIRED:                                                       
   - LiquidCrystal_I2C                                                       
   - EEPROM (Built-in)                                                 
