@@ -30,6 +30,10 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
 
 
 
+[![Play Live Version in Wokwi](https://img.shields.io/badge/Play%20Live-Wokwi%20Simulator-blue?style=for-the-badge&logo=arduino)](https://wokwi.com/projects/460763041003336705)
+
+
+
 
  🐍 GAMEPLAY FEATURES:                                                        
   - Persistent high scores and wins powered by the Arduino's internal        
