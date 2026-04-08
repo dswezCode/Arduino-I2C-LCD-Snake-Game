@@ -66,7 +66,11 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
    "eeAddressWins" and "eeAddressHighScore" variables                       
    (for example eeAddressWins = 4; eeAddressHighScore=6;)                   
    make sure each address is 2 steps away from the preceding one because int
-   variables take 2 places of memory                                        
+   variables take 2 places of memory
+
+📺 SCREEN ADDRESS: The program defaults to the screen address 0x27
+   if your screen address is diffrent change the 0x27 to your screen address
+   in the line LiquidCrystal_I2C lcd(0x27, 16, 2);
                                                                             
 🕹️ HOW TO PLAY:                                                             
   -wire everything according to the hardware connections specified below    
