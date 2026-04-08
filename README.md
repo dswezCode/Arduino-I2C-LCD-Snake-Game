@@ -16,7 +16,11 @@ images showcasing the game:
 a video showcasing the game:
 
 
-https://github.com/user-attachments/assets/09d13f63-7b2c-4824-a14c-55e7aaec3379
+
+
+https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
+
+
 
 
 
