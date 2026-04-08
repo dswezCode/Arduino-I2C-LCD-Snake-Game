@@ -81,17 +81,17 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
    
                                                                             
  🔌 HARDWARE CONNECTIONS:                                                     
-  - Joystick 5v         -> 5v supply                                        
-  - Joystick GND        -> GND                                              
-  - Joystick X-Axis     -> Analog A0                                        
-  - Joystick Y-Axis     -> Analog A1                                        
-  - Joystick Button/SW  -> Digital Pin 8                                    
-  - Passive Buzzer +    -> Digital Pin 9                                    
-  - Passive Buzzer -    -> GND                                              
-  - 16x2 I2C LCD VCC    -> 5v supply                                        
-  - 16x2 I2C LCD GND    -> GND                                              
-  - 16x2 I2C LCD SDA    ->Arduino SDA pin
-  - 16x2 I2C LCD SCL    ->Arduino SCL pin                                   
+  - Joystick 5v             -> 5v supply                                        
+  - Joystick GND            -> GND                                              
+  - Joystick X-Axis         -> Analog A0                                        
+  - Joystick Y-Axis         -> Analog A1                                        
+  - Joystick Button/SW      -> Digital Pin 8                                    
+  - Passive Buzzer (plus)   -> Digital Pin 9                                    
+  - Passive Buzzer (minus)  -> GND                                              
+  - 16x2 I2C LCD VCC        -> 5v supply                                        
+  - 16x2 I2C LCD GND        -> GND                                              
+  - 16x2 I2C LCD SDA        ->Arduino SDA pin
+  - 16x2 I2C LCD SCL        ->Arduino SCL pin                                   
                                                                             
 📖 LIBRARIES REQUIRED:                                                       
   - LiquidCrystal_I2C (by Frank de Brabander/John Rickman)                                                    
