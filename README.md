@@ -6,17 +6,14 @@ Implemented with a standard 16x2 I2C LCD screen (the gameplay runs in a 16x4 res
 
 images showcasing the game:
 
-![intro](https://github.com/user-attachments/assets/82430bbb-7609-440e-a9f3-31467b62728d)
-
 <img src="https://github.com/user-attachments/assets/82430bbb-7609-440e-a9f3-31467b62728d" width="400">
 
-![snake](https://github.com/user-attachments/assets/a2024ef3-5a93-4ca4-9c07-3706d435157a)
+<img src="https://github.com/user-attachments/assets/a2024ef3-5a93-4ca4-9c07-3706d435157a" width="400">
 
-![gameOver](https://github.com/user-attachments/assets/0bbb51c2-8b3c-4b6a-a43b-4ab1e3e15769)
+<img src="https://github.com/user-attachments/assets/0bbb51c2-8b3c-4b6a-a43b-4ab1e3e15769" width="400">
 
 
 a video showcasing the game:
-
 
 https://github.com/user-attachments/assets/733a871a-5763-4570-bee3-10f0fccfd54d
 
