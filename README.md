@@ -32,14 +32,14 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
 
 
  🐍 GAMEPLAY FEATURES:                                                        
-  - Persistent High Scores & Wins: Powered by the Arduino's internal        
-    EEPROM memory, your High Score and Total Wins are saved permanently.    
-  - Continuous play mechanic: if you win by getting to maximum              
+  - Persistent high scores and wins powered by the Arduino's internal        
+    EEPROM memory, your High Score and Total Wins are saved permanently    
+  - Continuous play mechanic, if you win by getting to maximum              
     snakes length the snake resets while keeping your score                 
     allowing you to continue playing (win count grows by 1 each run you won 
     at least once by achieving maximum length, wins dont stack up in        
     a single run)                                                           
-  - Dynamic game speed: the longer you play the faster the snake becomes    
+  - Dynamic game speed, the longer you play the faster the snake becomes    
     until it reaches max speed, if you win the game and the snake resets    
     the max speed is kept.                                                  
   - custom tones that play on a passive buzzer to enhance                   
@@ -71,6 +71,7 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
 🕹️ HOW TO PLAY:                                                             
   -wire everything according to the hardware connections specified below    
    flash the program to the Arduino uno board, power the Arduino board 
+   and once the main menu loads simply click on the joystick to begin playing
 
 
    
@@ -89,8 +90,9 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
   - Passive Buzzer -    -> GND                                              
   - 16x2 I2C LCD VCC    -> 5v supply                                        
   - 16x2 I2C LCD GND    -> GND                                              
-  - 16x2 I2C LCD SDA    ->Arduino SDA pin                                   
+  - 16x2 I2C LCD SDA    ->Arduino SDA pin
+  - 16x2 I2C LCD SCL    ->Arduino SCL pin                                   
                                                                             
 📖 LIBRARIES REQUIRED:                                                       
-  - LiquidCrystal_I2C                                                       
+  - LiquidCrystal_I2C (by Frank de Brabander/John Rickman)                                                    
   - EEPROM (Built-in)                                                 
