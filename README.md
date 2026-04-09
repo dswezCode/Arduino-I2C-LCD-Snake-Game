@@ -101,8 +101,7 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
    Image of my setup:
    
 
-   ![mySetup](https://github.com/user-attachments/assets/cc518dce-afee-4b06-b02f-e82c8669c28f)
-   <img src="https://github.com/user-attachments/assets/cc518dce-afee-4b06-b02f-e82c8669c28f" width="800">
+   <img src="https://github.com/user-attachments/assets/cc518dce-afee-4b06-b02f-e82c8669c28f" width="600">
 
 
 
