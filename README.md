@@ -106,6 +106,13 @@ https://github.com/user-attachments/assets/2faedf5a-2517-4604-8523-de598b46798c
 
 
    
+
+
+
+
+
+
+
    
                                                                             
  🔌 HARDWARE CONNECTIONS:                                                     
